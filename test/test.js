@@ -4,8 +4,8 @@
 
 // we are going to use mocha as our test runner and "chai"
 // as our assertion library
-let myLib = require('./my_lib');
-let expect = require('chai').expect;
+const myLib = require('../my_lib');
+const expect = require('chai').expect;
 
 // "describe" will logout the name of the module we are 
 // running our tests on
